@@ -6,7 +6,7 @@ pontuacaotemp = 0
 sg.theme('LightBlue6')
 contador = 1
 layout = [
-    [sg.Text(''), sg.Text('Pergunta',size=(57,1),font=('Eras Bold ITC','12'),justification='right',visible=False,key='perguntanome'),sg.ProgressBar(27,size=(10,5),key='progresso',bar_color=('orange',None),visible=False),sg.Text(f'{contador}/27', font=('Eras Bold ITC','12'),key='n_pergunta',visible=False)],
+    [sg.Text(''), sg.Text('Pergunta',size=(54,1),font=('Eras Bold ITC','12'),justification='right',visible=False,key='perguntanome'),sg.ProgressBar(27,size=(10,5),key='progresso',bar_color=('orange',None),visible=False),sg.Text(f'{contador}/27', font=('Eras Bold ITC','12'),key='n_pergunta',visible=False)],
     [sg.Text('Direita ou esquerda?', font=('Eras Bold ITC','20'), key='titulo')],
     [sg.Text('',size=(6,3))],
     [sg.Text('Responda 27 perguntas não relacionadas à política e tentarei acertar com qual dos lados você tende a concordar mais.', font=('Eras Bold ITC','15'),key='pergunta',visible=True,size=(60,5),justification='center')],
